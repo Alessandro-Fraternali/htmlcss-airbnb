@@ -3,7 +3,7 @@
   /* margin: 0; */
   padding: 0;
 }
-#primo img{
+img{
   width: 98.5vw;
   height: 58vh;
 }
@@ -12,12 +12,24 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 200%;
   background-color: rgba(233,233,240,0.2);
 }
-.nome {
+#nome {
   text-align:center;
   position: relative;
   font-size: 3em;
-  top: 28%;
+  top: 15%;
+}
+#nome2 {
+  text-align:center;
+  position: relative;
+  font-size: 3em;
+  top: 45%;
+}
+#nome3 {
+  text-align:center;
+  position: relative;
+  font-size: 3em;
+  top: 75%;
 }
