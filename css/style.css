@@ -1,17 +1,23 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
 }
-img {
-  width: 98vw;
+#primo img{
+  width: 98.5vw;
   height: 58vh;
-  padding: 10px 10px 0px 10px;
 }
-#posto1 h1 {
+.copertura {
   position: absolute;
-  left: 45%;
-  bottom: 60%;
-  font-size: 55px;
-  color: orange;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233,233,240,0.2);
+}
+.nome {
+  text-align:center;
+  position: relative;
+  font-size: 3em;
+  top: 28%;
 }
